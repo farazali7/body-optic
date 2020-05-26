@@ -1,4 +1,6 @@
-<img src="web_appv2\src\assets\images\logo1.png">
+<p align="center">
+    <img src="web_appv2\src\assets\images\logo1.png">
+</p>
 
 ---
 
