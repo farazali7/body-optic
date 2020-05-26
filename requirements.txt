@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+opencv-python
+tensorflow==2.0
+sklearn
+imgaug
+flask
+flask-sqlalchemy
+python-dotenv
+flask_cors
