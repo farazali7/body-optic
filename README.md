@@ -4,7 +4,7 @@
 
 ---
 
-BodyOptic is a web application that allows a user to take a front-facing digital photograph of themselves and then upload it to a machine learning algorithm to determine their body composition. The app uses a pre-trained VGG19 convolutional neural network without its final output layer, thus, rendering it as just a feature extractor for the given image. This data is then fed to a K-NearestNeighbour classifier to classifying the user's body fat percentage. The data used for voting (comparison) is composed of images of males and females ranging from 10-20 and 22-32 body fat percentages respecively. These dataset images were taken from individuals who presented an accompanying DEXA scan report, which is considered the "gold standard" of measuring body composition.
+BodyOptic is a web application that allows a user to take a front-facing digital photograph of themselves and then upload it to a machine learning algorithm to determine their body composition. The app uses a pre-trained VGG19 convolutional neural network without its final output layer, thus, rendering it as just a feature extractor for the given image. This data is then fed to a K-NearestNeighbour classifier to classify the user's body fat percentage. The dataset used for voting (comparison) is composed of images of males and females ranging from 10-20 and 22-32 body fat percentages respecively. These images were taken from individuals who presented an accompanying DEXA scan report of their claimed body fat levels, which is considered the "gold standard" of measuring body composition.
 
 >Note: At no point are images given to application stored or used in any manner outside of application's intended use. 
 
