@@ -2,7 +2,7 @@ numpy
 pandas
 matplotlib
 opencv-python
-tensorflow==2.0.1
+tensorflow==2.6.4
 sklearn
 imgaug
 flask
